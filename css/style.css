@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: #F6F9FC;
+}
+
+p{
+    font-size: 18px;
+}
+
+button{
+    border-radius: 8px;
+border: none;
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    max-width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    margin: auto 0;
+}
+
+nav ul{
+margin: auto ;
+display: flex;
+}
+
+li{
+    display: inline-block;
+    margin-bottom: auto;
+    list-style: none;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.buttons{
+font-size: 18px;
+margin: auto 0;
+}
+
+.enter{
+    width: 79px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid #1C85E8;
+    background: none;
+    font-size: 18px;
+}
+
+.registr{
+    width: 137px;
+    height: 45px;
+    color: white;
+    background: linear-gradient(93.66deg, #1D89EF 1.36%, #6378D8 98.37%);
+    font-size: 18px;
+    border: none;
+}
+
+
+
+main{
+    height: auto;
+    width: 100%;
+}
+
+.SP{
+    max-width: 1040px;
+    max-height: 420px;
+    margin: 50px auto 72px;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.SP_text{
+    margin: auto 0;
+}
+
+.SP_text h1{
+    font-size: 48px;
+}
+
+.SP_text p{
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+.buttonstyle{
+    width: 172px;
+    height: 45px;
+    color: white;
+font-size: 18px;
+background: linear-gradient(93.66deg, #1C85E8 1.36%, #6378D8 98.37%);
+border: none;
+}
+
+.buttonstyle:hover{
+    color: pink;
+}
+
+.projects{
+width: 1040px;
+height: auto;
+margin: 0 auto;
+}
+
+.projects h1{
+    text-align: center;
+}
+.projects p{
+    text-align: center;
+margin: 30px 0 70px;
+}
+
+.project_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block{
+    height: 533px;
+    width: 300px;
+    background-color: #fff;
+    /* margin: 0 35px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.11);
+}
+.block h1{
+text-align: left;
+margin: 35px 0 25px 30px;
+font-size: 22px;
+}
+
+.block p{
+text-align: left;
+margin: 25px 30px;
+}
+
+.projects button{
+    color: white;
+    background: linear-gradient(93.66deg, #1C85E8 1.36%, #6378D8 98.37%);
+    width: 224px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 100px;
+    align-items: center;
+}
+
+.color_content{
+    background: #EBEEF3;
+}
+
+.content{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.content h1{
+    padding-top: 100px ; 
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 36px;   
+}
+
+.buy_blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.buy{
+max-height: 560px;
+max-width: 330px;
+background-color: #fff;
+display: grid;
+justify-content: center;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.buy h2{
+    /* text-align: center; */
+    border: 1px solid #1C85E8;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 9px 21px;
+    display: inline-block;
+    margin: 30px auto;
+
+}
+
+.buy h3{
+font-size: 36px;
+text-align: center;
+}
+
+.buy p{
+    font-size: 18px;
+    width: 183px;
+    margin: 0 auto;
+}
+
+.buy button{
+    border: 1px solid #1C85E8CC;
+    background: none;
+    height: 40px;
+    width: 40px;
+    margin: 30px 30px 50px;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+
+    font-size: 18px;
+    color: #1C85E8;
+    float: right;
+    
+}
+
+.buy button:hover{
+    background-color: rgb(180, 180, 241);
+}
+
+
+.usluga {
+    max-width: 500px;
+    max-height: 773px;
+margin: 0px auto;
+}
+
+.usluga h1{
+    margin: 100px 0 30px;
+    text-align: center;
+}
+
+.usluga p{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.placehere{
+    margin-bottom: 74px;
+}
+
+.stand{
+    width: 500px;
+    height: 50px;
+    margin: 16.5px 0;
+    background: none;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    border: solid 1px #BBBBBB;
+    border-radius: 8px;
+}
+
+.stand.clearMarg{
+    margin-top: 0;
+}
+
+.agreeButton{
+    height: 25px;
+    width: 25px;
+}
+
+.labe {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.usluga .buttonstyle{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+aside{
+    max-width: 745px;
+    margin: 0 auto;
+}
+aside h1{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.ourcontact{
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+}
+.contact_pic {
+    /* column-gap: 269px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.contact_p{
+    max-width: 228px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+footer{
+    background: #EBEEF3;
+    width: 100%;
+}
+
+.widthFooter{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 124px;
+    height: 379px;
+
+}
+.coopyright{
+    padding-top: 40px;
+}
+
+.coopyright img{
+    margin-bottom: 16px;
+}
+
+.coopyright p{
+    margin-bottom: 30px;
+}
+
+.nav_footer{
+    padding: 85px;
+}
+.nav_footer h2{
+    margin-bottom: 40px;
+}
+
+.nav_footer a{
+text-decoration: none;
+color: black;
+display: block;
+margin: 15px 0;
+margin-bottom: 30px;
+} 
+
+
+.help{
+    padding-top: 85px;
+}
+.help h2{
+    margin-bottom: 40px;
+}
+.help p{
+    margin-bottom: 30px;
+}
+
+.socialmedia{
+    padding-top: 85px;
+    width: 171px;
+}
+
+.socialmedia div{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+
+
+
+
+@media (max-width: 320px){
+
+body{
+    margin: 8px 15px;
+}
+
+header{
+}
+
+.SP{
+    display: block;
+}
+
+.hidden{
+    font-size: 0;
+}
+
+/* 
+    header img{
+        height: 50px;
+        margin: 8px 0 79px 15px;
+    }
+
+
+    
+
+    .SP{
+        display: grid;
+        margin: 0 auto;
+    }
+
+    .SP_text{
+        margin: 0 29px;
+        text-align: center;
+    }
+    .SP_text h1{
+        font-size: 36px;
+    }
+
+
+
+    .hidden{
+        font-size: 0; 
+        text-indent: -9999px;                 
+        background-image: url(../image/popo.png);  
+        white-space: nowrap; 
+        border: none;
+    }
+    .hidden2{
+    } */
+}

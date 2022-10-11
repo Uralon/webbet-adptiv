@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+body{
+color: #21201E;
+;
+}
+
+
+section h2{
+    margin: 70px 0;
+}
+td{
+    font-size: 22px;
+    /* padding-right: 47px; */
+
+}
+
+
+
+thead td{
+    margin-bottom: 53px;
+    padding-bottom: 53px;
+    
+}
+tbody tr{
+    border-bottom: 3px solid #BFBFBF;;
+    /* border-bottom: 3pt solid black; */
+
+}
+
+tbody td {
+    padding-top: 43px;
+    padding-bottom: 30px;
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    width: 1167px;
+    margin: 0 auto;
+}
+
+section h2{
+font-size: 48px;
+text-align: center;
+}
+
+table{
+    font-size: 18px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flex_button{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.buttonstyle{
+    display: flex;
+    margin: 70px auto;
+    align-items: center;
+justify-content: center;
+}
